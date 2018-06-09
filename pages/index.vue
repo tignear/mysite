@@ -19,6 +19,7 @@ export default {
 
 <style scoped>
 div{
-    margin-left: 60px;
+    max-width: 100%;
+    margin:auto;
 }
 </style>
