@@ -56,7 +56,7 @@ export default {
                 { property:"og:url", content:"https://tignear.now.sh/profile" } ,
                 { property:"og:title", content:"Tignearのプロフィール" }, 
                 { property:"og:description" ,content:"scalaとかが好きな人" }, 
-                { property:"og:image", content:"~/static/img/profile/myimg.jpg" }
+                { property:"og:image", content:"https://tignear.now.sh/img/profile/myimg.jpg" }
             ]
         }
     }
