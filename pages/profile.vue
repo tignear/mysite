@@ -68,6 +68,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  justify-content:center;
 }
 h2 {
   display: inline-block;
