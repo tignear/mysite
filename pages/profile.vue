@@ -6,7 +6,7 @@
         </div>
         <img src="~/static/img/profile/myimg.jpg"/>
     </div>
-    <div class="card intro">
+    <div class="card">
         <div>
         scalaが好きだけどあまり深いとこまでいけてない。
         web系はあんまり得意ではない。
