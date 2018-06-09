@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h1>Welocome to Tignear's House</h1>
+    <h1>Welcome to Tignear's House</h1>
     <p>
         ここは僕のcssとhtmlの練習の場所です。
         404になったりデザインが崩れてたりしたらそっと教えてくれると嬉しいです。
