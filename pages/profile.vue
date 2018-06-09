@@ -45,40 +45,58 @@
     </div>
 </main>
 </template>
+<script>
+export default {
+    head(){
+        return {
+            title:"プロフィール",
+            meta: [
+                {name:"twitter:card" ,content:"summary"}, 
+                {name:"twitter:site", content:"@tignear"} ,
+                { property:"og:url", content:"https://tignear.now.sh/profile" } ,
+                { property:"og:title", content:"Tignearのプロフィール" }, 
+                { property:"og:description" ,content:"scalaとかが好きな人" }, 
+                { property:"og:image", content:"~/static/img/profile/myimg.jpg" }
+            ]
+        }
+    }
+}
+</script>
+
 <style scoped>
-main{
-    display: flex;
-    flex-wrap:wrap;
-    align-content: flex-start;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 h2 {
-    display: inline-block;
+  display: inline-block;
 }
 img {
-  width:100%;
+  width: 100%;
   height: auto;
   border-radius: 100%;
 }
-main .card{
-    border: 4px double #ddd;
-    margin: 2em 0;
-    padding: 2em;
-    min-width: 300px;
-    box-sizing:border-box;
-    width: 25%;
+main .card {
+  border: 4px double #ddd;
+  margin: 2em 0;
+  padding: 2em;
+  min-width: 300px;
+  box-sizing: border-box;
+  width: 25%;
 }
-.links a{
-    margin: 1em;
-    color:black;
+.links a {
+  margin: 1em;
+  color: black;
 }
-.links a:visited{
-    color: black;
+.links a:visited {
+  color: black;
 }
-.links{
-    margin-top: 2em;
-    text-align: center;
+.links {
+  margin-top: 2em;
+  text-align: center;
 }
-i{
-    font-size:300%;
+i {
+  font-size: 300%;
 }
 </style>

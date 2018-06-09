@@ -7,6 +7,16 @@
     </p>
 </div>
 </template>
+<script>
+export default {
+    head(){
+        return{
+            title:"Tignear's House"
+        }
+    }
+}
+</script>
+
 <style scoped>
 div{
     margin-left: 60px;
