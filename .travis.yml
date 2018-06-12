@@ -11,8 +11,7 @@ branches:
   - master
 
 install:
-  - yarn 
-  - yarn run build
+  - echo "Skipping install"
 
 script:
   - echo "Skipping tests"
